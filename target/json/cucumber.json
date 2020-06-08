@@ -1,0 +1,87 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login using the service and validate the response for valid and invalid credentials",
+        "description": "",
+        "id": "this-feature-is-used-to-login-and-validate-the-response-from-the-api;login-using-the-service-and-validate-the-response-for-valid-and-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6751161400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I create the toolsQa login service response with valid credentials",
+            "match": {
+              "location": "Assignment4Steps.i_create_the_toolsQa_login_service_response_with_valid_credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ToolsQA",
+                  "TestPassword"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 705570100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verify the response that user is able to login successfully",
+            "match": {
+              "location": "Assignment4Steps.i_verify_the_response_that_user_is_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1403009100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I create the toolsQa login service response with valid credentials",
+            "match": {
+              "location": "Assignment4Steps.i_create_the_toolsQa_login_service_response_with_valid_credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "DummyUserName",
+                  "DummyPassword"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15334700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify the login failed error details in response",
+            "match": {
+              "location": "Assignment4Steps.i_verify_the_login_failed_error_details_in_response()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This feature is used to login and validate the response from the api",
+    "description": "",
+    "id": "this-feature-is-used-to-login-and-validate-the-response-from-the-api",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Assignment4.feature",
+    "tags": []
+  }
+]

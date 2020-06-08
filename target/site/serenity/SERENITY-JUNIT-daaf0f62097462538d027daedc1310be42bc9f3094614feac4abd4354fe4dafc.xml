@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="This feature is used to login and validate the response from the api" skipped="0" tests="1" time="9.02" timestamp="2020-04-24 01:25:35"><testcase name="Login using the service and validate the response for valid and invalid credentials"/></testsuite>
